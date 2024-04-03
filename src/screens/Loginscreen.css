@@ -1,0 +1,259 @@
+    .loginScreen{
+        position: relative;
+        height: 100vh;
+        padding: 30px;
+        width: 100%;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url("../../public/netflixbg.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        object-fit: contain;
+        object-position: center;
+        background-position: center;
+     
+ 
+}
+.loginscreennav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+
+}
+.loginScreen__logo{
+
+        width: 150px;
+}
+
+.LoginScreen_button{
+    padding: 10px 30px;
+    cursor: pointer;
+    color: white;
+    background-color: #e50914;
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*  */
+
+
+.form_1{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+ .hero {
+    height: 70vh;
+    /* border: 1px solid red; */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+  
+   .hero .hero-title-text {
+    font-size: 3rem;
+    font-weight: 800;
+  }
+  
+  .hero_description {
+    font-weight: 400;
+    font-size: 1.8rem;
+  }
+  
+  .hero_footer_text {
+    font-size: 1.4rem;
+    font-weight: 500;
+  }
+  
+  .seperation {
+    height: 10px;
+    background-color: rgb(39, 39, 39);
+  }
+  
+  .hero_btn {
+    font-size: 1.3rem;
+    padding: 0.7rem 1.8rem;
+    background-color: #e50914;
+    border: none;
+    color: white;
+  }
+  
+  .em {
+    font-style: normal;
+  }
+  
+  .hero_input {
+    border: 1px solid rgb(140, 140, 140);
+    background-color: rgba(32, 32, 32, 0.5);
+    padding: 0.9rem 10rem 0.9rem 1rem;
+    font-family: "Open Sans", sans-serif;
+    border-radius: 5px;
+  }
+  .hero_input::placeholder {
+    color: white;
+    opacity: 0.7;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  .hero_email_section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+  }
+
+
+  @media screen and (max-width:1024px) {
+     .hero .hero-title-text {
+      font-size: 2.2rem;
+      font-weight: 800;
+    }
+    
+    .hero_description {
+      font-weight: 400;
+      font-size: 1.5rem;
+    }
+    
+    .hero_footer_text {
+      font-size: 1.1rem;
+      font-weight: 500;
+    }
+   
+    .hero_btn {
+      font-size: 1.1rem;
+      padding: 0.6rem 1.8rem;
+    }
+    .hero_input {
+      border: 1px solid rgb(140, 140, 140);
+      background-color: rgba(32, 32, 32, 0.5);
+      padding: 0.7rem 8rem 0.7rem 1rem;
+      font-family: "Open Sans", sans-serif;
+      border-radius: 5px;
+    }
+    .hero_input::placeholder {
+      color: white;
+      opacity: 0.7;
+      font-size: 1rem;
+      font-weight: 400;
+    }
+  
+  }
+
+  
+@media screen and (max-width:768px) {
+     .hero .hero-title-text {
+      font-size: 1.9rem;
+      font-weight: 800;
+    }
+    
+    .hero_description {
+      font-weight: 400;
+      font-size: 1.2rem;
+    }
+    
+    .hero_footer_text {
+      font-size: 1rem;
+      font-weight: 500;
+    }
+   
+    .hero_btn {
+      font-size: 1rem;
+      padding: 0.4rem 1.5rem;
+    }
+    .hero_input {
+      border: 1px solid rgb(140, 140, 140);
+      background-color: rgba(32, 32, 32, 0.5);
+      padding: 0.5rem 8rem 0.5rem 1rem;
+      font-family: "Open Sans", sans-serif;
+      border-radius: 5px;
+    }
+    .hero_input::placeholder {
+      color: white;
+      opacity: 0.7;
+      font-size: 1rem;
+      font-weight: 400;
+    }
+    .nav_btn{
+      padding: 0.3rem 1.4rem;
+      font-size: 1rem;
+    }
+  }
+
+
+  
+@media screen and (max-width:640px) {
+     .hero .hero-title-text {
+      font-size: 1.5rem;
+      font-weight: 800;
+    }
+    
+    .hero_description {
+      font-weight: 400;
+      font-size: 1.1rem;
+    }
+    
+    .hero_footer_text {
+      font-size: 0.9rem;
+      font-weight: 500;
+    }
+  
+    .hero_btn {
+      font-size: 1rem;
+      padding: 0.4rem 1.5rem;
+    }
+    .hero_input {
+      border: 1px solid rgb(140, 140, 140);
+      background-color: rgba(32, 32, 32, 0.5);
+      padding: 0.5rem 1rem 0.5rem 1rem;
+      font-family: "Open Sans", sans-serif;
+      border-radius: 5px;
+      width: 90%;
+    }
+    .hero_input::placeholder {
+      color: white;
+      opacity: 0.7;
+      font-size: 1rem;
+      font-weight: 400;
+      width: 100%;
+    }
+    .nav_btn{
+      padding: 0.3rem 1rem;
+      font-size: 0.9rem;
+    }
+    .hero_email_section {
+      width: 100%;
+      gap: 20px;
+      padding-top: 20px;
+    }
+    .form_1{
+        flex-direction:  column;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+    .form_1 button{
+      width: 100%;
+    }
+  
+  }
+
+
+
+  
+  

@@ -1,0 +1,71 @@
+.SignUpScreen{
+    height: 90vh;
+    width: 100%;
+    /* border: 1px solid saddlebrown; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+
+
+}
+
+.heaver__container{
+        width   :600px;
+    padding:200px 0px; 
+    border-radius: 5px;
+background-color: rgba(0, 0, 0, 0.8);
+}
+
+.SignUpScreen h1{
+    font-size: 3rem;
+}
+
+.SignUp__container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.SignUp__container input{
+        width: 40%;
+        outline: none;
+        padding: 8px 20px;
+        border: none;
+        border-radius: 5px;
+}
+.SignUp__container button{
+        width: 40%;
+        padding: 8px 20px;
+        border-radius: 5px;
+        color: white;
+        background-color: #e50914;
+        border: none;
+        cursor: pointer;
+        font-size: 1rem;
+        margin-top: 15px;
+}
+
+.a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.SignUp__container h4 em{
+    font-style: normal;
+    opacity: 0.6;
+  
+}
+.SignUp__container h4 {
+    margin-top: 10px;
+    text-align: start
+}
